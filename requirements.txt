@@ -1,6 +1,11 @@
+setuptools>=68.0.0
+wheel>=0.40.0
+pip>=23.0.0
 Flask==2.3.3
 Flask-CORS==4.0.0
 appwrite==4.1.0
-python-dotenv==1.0.0
-gunicorn==21.2.0
-requests==2.31.0
+pandas
+numpy
+scikit-learn
+python-dotenv
+gunicor
