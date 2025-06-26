@@ -1,7 +1,7 @@
 # hackathon_app.py
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from appwrite import HackathonAppwriteClient
+from appwrite_client import HackathonAppwriteClient
 from recommendation_engine import HackathonRecommendationEngine
 import os
 import logging
